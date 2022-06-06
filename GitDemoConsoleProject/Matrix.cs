@@ -10,8 +10,8 @@ namespace GitDemoConsoleProject
     {
         public static int[,] Generate(int n, int m)
         { 
-            Random random = new Random();
             int[,] matrix = new int[n, m];
+            Random random = new Random();
             for (int i = 0; i < n; i++)
                 for (int j = 0; j < m; j++)
                 {
