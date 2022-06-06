@@ -20,7 +20,7 @@ namespace GitDemoConsoleProject
             return matrix;
 
         }
-        public static void Display (int [,]matrix)
+        public static void Display(int[,] matrix)
         {
             for (int i = 0; i < matrix.GetLength(0); i++)
             {
@@ -30,6 +30,6 @@ namespace GitDemoConsoleProject
                 }
                 Console.WriteLine();
             }
-
+        }
     }
 }
